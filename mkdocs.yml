@@ -1,5 +1,6 @@
 site_name: MDE Internals
 site_url: https://therustymate.com/MDE-Internals
+repo_url: https://github.com/therustymate/MDE-Internals
 theme:
   name: material
   language: en
@@ -11,3 +12,5 @@ theme:
     text: General Sans
 extra:
   homepage: https://therustymate.com/MDE-Internals
+plugins:
+  - search
