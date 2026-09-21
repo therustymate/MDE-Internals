@@ -1,0 +1,13 @@
+site_name: MDE Internals
+site_url: https://therustymate.com/MDE-Internals
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+  font:
+    text: General Sans
+extra:
+  homepage: https://therustymate.com/MDE-Internals
