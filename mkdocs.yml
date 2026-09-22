@@ -1,9 +1,11 @@
 site_name: MDE Internals
 site_url: https://therustymate.com/MDE-Internals
 repo_url: https://github.com/therustymate/MDE-Internals
+repo_name: therustymate/MDE-Internals
 theme:
   name: material
   language: en
+  logo: assets/logo.webp
   palette:
     scheme: slate
     primary: indigo
@@ -14,3 +16,12 @@ extra:
   homepage: https://therustymate.com/MDE-Internals
 plugins:
   - search
+  - meta
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

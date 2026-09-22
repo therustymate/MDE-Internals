@@ -1,0 +1,1652 @@
+None
+DLP\
+Platform\
+Start
+O:SYG:SYD:P(A;;GA;;;SY)S:P(TL;;0x0;;;S-1-19-512-4096)
+HashCalculationSuccessCounter
+StatisticsReportPeriodInSeconds
+StatisticsOpticsSamplingRate
+SOFTWARE\Microsoft\Windows NT\CurrentVersion
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\
+\\?\
+NewPlatform
+71ec666f-dba9-4e3b-b600-0c3e03095c4d
+NextVersion
+UserDefinedRing
+SenseImdsCollector.exe
+en-US
+NT AUTHORITY
+LocalService
+NetworkService
+System
+Debugger
+SOFTWARE\Microsoft\Windows Advanced Threat Protection
+Sense
+S-1-5-80-1523878533-411328482-2798077809-3098663872-2604013308
+SOFTWARE\Policies\Microsoft\Windows\DataCollection
+SOFTWARE\Microsoft\Windows Advanced Threat Protection\48A68F11-7A16-4180-B32C-7F974C7BD783
+UNKNOWN
+TelemetryProxyServer
+GUID
+00000000-0000-0000-0000-000000000000
+OrgId
+senseGuid
+senseId
+latency
+Normal
+senseCommandsMode
+hvaMode
+TrustMicrosoftTestRoot
+AllowSampleCollection
+GroupIds
+AadDeviceId
+PreferStaticProxyForHttpRequest
+IgnoreCacheLoadOnStart
+ForceDefenderPassiveMode
+CommandId
+OnboardingInfo
+696C1FA1-4030-4FA4-8713-FAF9B2EA7C0A
+OnboardedInfo
+7DC0B629-D7F6-4DB3-9BF7-64D5AAF50F1A
+C9D38BBB-E9DD-4B27-8E6F-7DE97E68DAB9
+2567E824-34AB-4A74-90E9-BC0F8BDFAA4A
+Configuration
+null
+AllowVolumeLookupByDrive
+%hs(%u)\%hs!%p: 
+%hs!%p: 
+(caller: %p) 
+%hs(%d) tid(%x) %08X %ws
+    
+Msg:[%ws] 
+CallContext:[%hs] 
+[%hs(%hs)]
+[%hs]
+ntdll.dll
+kernelbase.dll
+std::exception: %hs
+Local\SM0:%lu:%lu:%hs
+Statistics
+Statistics Configuration
+Reporting statistics
+General
+config_version
+tick_since_last_report
+Internal Optics
+Failed to compress internal optics data
+AccountCache
+Failed to impersonate user
+Failed to create an environment block
+%u.%u.%u.%u
+OriginalFilename
+\VarFileInfo\Translation
+VerQueryValue Failed. Can't retrieve version information for the property
+\StringFileInfo\%04x%04x\%s
+VersionInfo::GetUtcType returned existing UTC type
+^(\d+\.\d+)\.(\d+\.\d+)$
+Could not open or create the registry path. Return default value
+Failed to read registry value. Return default value
+alnum
+alpha
+blank
+cntrl
+digit
+graph
+lower
+print
+punct
+space
+upper
+xdigit
+EnableLruCacheCounterOpticsReporting
+totalEntries
+totalSize
+totalHits
+totalMisses
+LruCacheCounter
+https://login.windows.net
+d3590ed6-52b3-4102-aeff-aad2292ab01c
+https://dataservice.o365filtering.com
+SeRestorePrivilege
+SeBackupPrivilege
+SeAssignPrimaryTokenPrivilege
+SeIncreaseQuotaPrivilege
+\??\UNC\
+\\?\UNC\
+\Device\Mup
+\\tsclient
+\??\UNC\tsclient
+\\?\UNC\tsclient
+\Device\Mup\tsclient
+\Device\Mup\
+localhost
+\Admin$
+\\.\pipe\
+AdaptiveCollectionEnabled
+ExcludePredecessorProcess
+AggregatedReportingEnabled
+EtwExtendedDataSourceEnabled
+CloudMetadataCollection
+ExternalServerRoles
+SnapshotInResourceManager
+OffboardingEpochBlocker
+AuthenticodeHashCalcEnabled
+PopulateParentProcessCiEnabled
+DisableHvaMode
+PopulateHvaInPartialMachineEvent
+MappedShareConversion
+%windows%
+%system%
+%program_files%
+%systemwow64%
+%program_filesx86%
+%common_startmenu%
+%common_programs%
+%common_startup%
+%common_desktop%
+%programdata%
+%common_templates%
+%common_documents%
+%common_admin_tools%
+%common_music%
+%common_pictures%
+%common_video%
+%CDIDLResources%
+%program_filescommon%
+%systemdrive%
+%fonts%
+%temp%
+%system_common%
+%system_AllUsersProfileRoot%
+%system_public%
+%user_Programs%
+%user_Documents%
+%user_Favorites%
+%user_Startup%
+%user_Recent%
+%user_SentTo%
+%user_StartMenu%
+%user_Music%
+%user_Videos%
+%user_Desktop%
+%user_NetHood%
+%user_Templates%
+%user_RoamingAppData%
+%user_PrintHood%
+%user_LocalAppData%
+%user_InternetCache%
+%user_Cookies%
+%user_History%
+%user_Pictures%
+%user_Profile%
+%user_AdminTools%
+%user_CDBurning%
+%user_Downloads%
+%user_Contacts%
+%user_SkyDrive%
+%user_SkyDriveDocuments%
+%user_SkyDrivePictures%
+%user_UserProgramFiles%
+%user_UserProgramFilesCommon%
+%user_Temp%
+\temp
+\system
+The call to CommandLineToArgv has failed
+:$Data
+::$Data
+LanmanRedirector\;
+DfsClient\;
+SeSecurityPrivilege
+GetDriveNativeMapping has failed since driveRoot is not formatted as a DOS path
+GetDriveNativeMapping has failed since there is no volume with the given drive root
+C:\$recycle.bin
+DLP_add_extra_removable_media_attributes
+AddExtraRemovableMediaAttributes
+Memory
+Critical
+HeartBeat
+GetStringValue - Invalid offset value
+Could not get IConfiguration interface.
+Storage volume discovered
+\Device\
+\\Device\
+\\?\Volume
+QueryDosDeviceW for volume without a drive letter failed
+vendorId
+productId
+serialNumber
+productRevision
+Target device storage details
+Unsupported removable device volume detected. Volume disk extent != 1
+DeviceIoControl() failed
+SetVolumeHardwareInformation failed - STORAGE_DEVICE_DESCRIPTOR size > 10KB
+SetVolumeHardwareInformation failed to get extra attributes - GetDiskNumber failed
+SetVolumeHardwareInformation failed to get extra attributes - DetectFromConnectedRemovableDevices failed
+GetVolumeInformation failed
+Invalid storage volume path
+Invalid drive character
+GetVolumeNameForVolumeMountPoint for driver letter without a volume
+QueryDosDevice for volume without a drive letter failed
+Setting privilege
+Failed to get process token
+Failed to lookup for privilege value
+Failed to adjust token privileges
+Failed to assign privileges
+Privilege was enabled before and not changed
+IgnoreNativePathConversion
+Failed to request an opportunistic lock(oplock) on a file
+Failed opening network oplocked file
+Failed to open remote file.
+Failed to open file with FILE_OPEN_REQUIRING_OPLOCK flag.
+Failed to open file with FILE_OPEN_REQUIRING_OPLOCK flag. maybe the FS doesn't support oplock. Retry without oplock flag
+application/octet-stream
+OpenOplockedFileWithImpersonation:: Empty native path
+Impersonation to user during OpenOplockedFileWithImpersonation has failed - user account was not provided
+Successfully impersonated logged-on user during OpenOplockedFileWithImpersonation
+Successfully impersonated user using explorer token during OpenOplockedFileWithImpersonation
+Impersonation to user during OpenOplockedFileWithImpersonation has failed
+Impersonation to user during OpenOplockedFileWithImpersonationEx has failed
+\??\
+\SystemRoot
+\Device\Mup\localhost\Admin$
+\Device\Mup\127.0.0.1\Admin$
+\Device\Mup\::1\Admin$
+\Device\Mup\0:0:0:0:0:0:0:1\Admin$
+\Device\Mup\localhost\
+\Device\Mup\127.0.0.1\
+\Device\Mup\::1\
+\Device\Mup\0:0:0:0:0:0:0:1\
+\\localhost\
+\\127.0.0.1\
+\\::1\
+\\0:0:0:0:0:0:0:1\
+\??\UNC\localhost\Admin$
+\??\UNC\127.0.0.1\Admin$
+\??\UNC\::1\Admin$
+\??\UNC\0:0:0:0:0:0:0:1\Admin$
+\??\UNC\localhost\
+\??\UNC\127.0.0.1\
+\??\UNC\::1\
+\??\UNC\0:0:0:0:0:0:0:1\
+\Device\Mup\;LanmanRedirector\;
+\Device\Mup\DfsClient\;
+GetRemovableMediaDevicePath failed
+VID_[A-Za-z0-9]+
+PID_[A-Za-z0-9]+
+Memory Allocation failed
+SetupDiGetDeviceInterfaceDetail failed
+DlpRemovableMediaAttrHandler::GetRemovableMediaDevicePath: Exception raised.
+CreateFile failed
+Failed to extract VID/PID/SerialId information from Device Instance Id
+Removable media attributes filled with unexpected details. Resetting.
+Target path attributes:
+DlpRemovableMediaAttrHandler::GetRemovableMediaAttributes: Exception raised.
+SetupDiGetClassDevs failed
+USBSTOR
+FindSerialIdForTargetPath() failed
+SetupDiEnumDeviceInterfaces failed
+DlpRemovableMediaAttrHandler::DetectFromConnectedRemovableDevices: Exception raised.
+InitHashStructCapability
+0123456789ABCDEF
+0123456789abcdef
+Failed to read file for hashing
+Failed to calculate hashes data
+Failed to retrieve file hash in RetrieveFileHashByName
+Failed to write file hash
+Failed to Acquire Context
+Failed to calculate Authenticode file hash
+Exception thrown while calculating Authenticode hash.
+EA Hash version doesn't match. recalculating the hash
+Failed to open handle to calculate Authenticode file hashes
+SHA1
+SHA256
+Failed to write extended (Authenticode) file hash to EA. Exception thrown
+Failed to write extended (Authenticode) file hash to EA
+Explorer.exe
+Failed to impersonate logged on user
+Successfully impersonated logged on user
+\Explorer.exe
+OpenProcessToken Failed
+Failed to duplicate token
+Try to get token from console session
+Try to get token via session enumeration
+Try to get token from first Explorer
+Duplicated token successfully for impersonation
+Failed to get logged-in user token
+Failed to Query User Token for session
+Failed to duplicate token for impersonation
+Dummy
+Oplock
+ Can't create metrics instruments, could not resolve IMetricsEngineWrapper
+OpenLocalFile
+OpenNetworkFile
+OplockNotSupported
+RequireOplock
+RequireOplockFail
+OplockBreak
+FailuresDueToOplockBreak
+OpenFileCounters
+SensorHubImpl: Failed to create metrics instruments
+SensorHubImpl: Failed to create metrics instruments with unknown exception
+[[:xdigit:]]{40}
+[[:xdigit:]]{64}
+[[:xdigit:]]{32}
+ObjectLength
+%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
+-ExecutionPolicy
+AllSigned
+-NoProfile -NonInteractive
+Bypass
+Start-Transcript -Path
+[System.IO.FileMode]::Open
+[System.IO.FileAccess]::Read
+[System.IO.FileShare]::Read
+$OutputEncoding = [Console]::OutputEncoding =
+[System.Text.Encoding]::UTF8
+[System.Text.Encoding]::Unicode
+chcp 65001
+RunPowerShellScript: Failed to verify script is Microsoft signed
+RunPowerShellScript: Verified script is microsoft rooted and properly signed
+-EncodedCommand 
+$scriptFileStream = [System.IO.File]::Open('
+' -Algorithm SHA256;
+$calculatedHash = Microsoft.PowerShell.Utility\Get-FileHash '
+{ exit 
+')) 
+if (!($calculatedHash.Hash -eq '
+-Command "& {
+if ($ExecutionContext.SessionState.LanguageMode -eq 'FullLanguage') {
+else {
+Registry value is empty or bigger than max length. Return default value
+Failed to set registry key
+Write registry value
+Could not open the registry key
+Failed to delete registry value
+Delete registry value
+Could not acquire or SE_BACKUP_NAME privilege
+Could not acquire or SE_RESTORE_NAME privilege
+Could not open or create the registry key
+Created a new key where one should have existed
+Could not re-open the registry key
+Could not delete the registry key
+ -- 
+NULL
+Initialize
+Stop
+Cleanup
+StartComplete() callback is being subscribed after Sense is already started.
+StartComplete() callback is being subscribed more than once.
+StartComplete() callback subscribed.
+StartComplete() callbacks are being called before Sense is started.
+Calling StartComplete() callback.
+StartComplete() callback threw unexpected exception
+DLP_user_id_key_enabled
+Windows.Security.Authentication.Web.Core.WebAuthenticationCoreManager
+Windows.Security.Authentication.Web.Core.WebTokenRequest
+foouser@
+AccountEntity::PopulateAadUserUpnIfUpnIsEmpty: AAD User UPN already exists, not calling fallback methods
+AccountEntity::GetAadUserUpnByGetUserNameEx: Impersonating user has failed
+AccountEntity::GetAadUserUpnByGetUserNameEx: Updating Device Aad Status.
+GetAadUserUpnByGetUserNameEx::Failed to extract UPN via GetUserNameEx
+AccountEntity::GetAadUserUpnByGetUserNameEx: Failed to extract UPN via GetUserNameEx
+AccountEntity::GetAadUserUpnByGetUserNameEx: Successfully extracted UPN via GetUserNameEx
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: Impersonating user has failed
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: Failed to get AadJoinInfo via NetGetAadJoinInformation
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: Received empty AadJoinInfo via NetGetAadJoinInformation
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: UPN is extracted via DSREG_JOIN_INFO::USER_INFO
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: DSREG_JOIN_INFO::USER_INFO is empty, Trying with DSREG_JOIN_INFO::JoinUserEmail
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: Successfully extracted UPN via NetGetAadJoinInformation
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: UPN via NetGetAadJoinInformation is invalid.
+AccountEntity::GetAadUserUpnByNetGetAadJoinInformation: Failed to get UPN via NetGetAadJoinInformation as UserEmail is empty
+AccountEntity::UpdateDeviceAadStatus: Failed to get DeviceJoinInfo via NetGetAadJoinInformation
+AccountEntity::UpdateDeviceAadStatus: Received empty DeviceJoinInfo via NetGetAadJoinInformation
+AccountEntity::UpdateDeviceAadStatus: Successfully retrieved DeviceJoinInfo using NetGetAadJoinInformation
+AccountEntity::PopulateAadUserFields: Updating Device Aad Status
+AccountEntity::PopulateAadUserFields: Retrieved AAD user token, id, tenant and UPN
+AccountEntity::PopulateAadTenantIdIfEmpty: Impersonating user has failed
+AccountEntity::PopulateAadTenantIdIfEmpty: Failed to get join info
+AccountEntity::UpdateAadUserIdentifiers: AAD user token isn't retrieved for non-user SID
+AccountEntity::UpdateAadUserIdentifiers: Failed to get a AAD user token
+AccountEntity::UpdateAadUserIdentifiers: User is invalid. Reset AadAccountCache.
+AccountEntity::UpdateAadUserIdentifiers: Failed to get UPN via NetGetAadJoinInformation or GetUserNameEx
+AccountEntity::UpdateAadAccountCache: AccountCache is disabled
+AccountEntity::UpdateAadAccountCache: Received empty AadUserId, AadUserUpn or unknown UpnSource.
+UpdateAadAccountCache::AadAccountCache is updated with UserId, Upn and UpnSource.
+ClassificationEligibilityStatus::IsUpnStatusFoundInCache: Checking BadUpn status cache for this user!
+File is not signed by a trusted signer
+Verify File - should trust ms test root
+Verify File signature failed
+Verify signature for file ended
+Config for TrustMicrosoftTestRoot is not a bool, defaulting to false
+No override from configuration to enable trusting Microsoft root, default to false
+Got trustMicrosoftTestRoot flag
+CertificateUtils::SetConfigurationTrustMicrosoftTestRootOverrideFlag
+Failed to retrieve certificate name
+Failed to retrieve subject name
+GetSerialNumber failed - PCERT_INFO is null
+Failed to query the cert SHA1 size
+GetDistributionPoints failed - PCERT_INFO is null
+GetDistributionPoints did not find the CRL_DIST_POINTS extention
+GetDistributionPoints failed to query decoded buffer size for CRL_DIST_POINTS extention
+GetDistributionPoints failed to decode CRL_DIST_POINTS extention
+GetDistributionPoints failed - decoded CRL_DIST_POINTS sizeof is incorrect
+GetDistributionPoints failed - decoded CRL_DIST_POINTS extention contains null DistPoint
+TrustedPublisher
+Failed converting win32 path to native path
+Failed opening file for certificate verification
+Failed to enumerate catalogs
+Failed to open certificate store
+Certificate was not found in store
+Failed to query certificate in desired store
+Found certificate in desired store
+Job object created
+Notification thread created for job
+NotificationThreadProc - Failed querying job
+Received message on job reaching limit
+ResourceRegulator::ViolationLimitFlags
+ResourceRegulator::JobMemory
+Notification thread was signaled to finish
+SetMemoryLimit - Failed setting limit to job
+SetMemoryLimit - job limit was set
+SetCpuRate - Failed setting limit to job
+SetCpuRate - job limit was set
+SetProcessesBreakaway - Failed setting breakaway to job
+Enable process breakaway - job limit was set
+SetProcessesKilledWhenJobHandleIsClosed - Failed setting processes being killed when job object is closed
+Enable processes being killed when job object is closed - job limit was set
+Failed to create completion port
+Failed to assosiate completion port to job
+Completion port assosiated with a job
+Failed to set notification configuration to a job
+Notifications configured for a job
+process in job already
+Failed to assign process to job
+successfully assigned process to job
+Failed to query ::IsProcessInJob() API
+Successfully quaried IsProcessAssignedToJob
+JobWrapper - destruct
+HangDetector
+HangDetectorCrash
+HangDetectorWerEvent
+mode
+samplingDurationInMs
+defaultComponentCallbackTimeout
+minTimeBetweenForcedCrashesSec
+werCooldownSec
+werDumpType
+DISABLED
+REPORT
+COLLECT_DUMP
+CRASH
+COLLECT_DUMP_AND_RESTART
+mini
+heap
+MDE_EDR_HangDetection
+HangDetectorOutput.txt
+PayloadName
+PayloadVersion
+ComponentName
+MetricsEngine
+DimensionedMetrics
+sHangDetectionVersionedConfig
+#+3;CScs
+!1Aa
+%.*g
+0123456789ABCDEF
+w+bx
+kernel32.dll
+ERROR : Unable to initialize critical section in CAtlBaseModule
+api-ms-win-core-fibers-l1-1-1
+api-ms-win-core-synch-l1-2-0
+kernel32
+api-ms-
+(null)
+         (((((                  H
+         (((((                  H
+      (                          
+LC_ALL
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+mscoree.dll
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+api-ms-win-core-datetime-l1-1-1
+api-ms-win-core-file-l1-2-4
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-file-l2-1-4
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+advapi32
+kernelbase
+ntdll
+api-ms-win-appmodel-runtime-l1-1-2
+user32
+ext-ms-
+ja-JP
+zh-CN
+ko-KR
+zh-TW
+american
+american english
+american-english
+australian
+belgian
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+dutch-belgian
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+irish-english
+italian-swiss
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+portuguese-brazilian
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+swedish-finland
+swiss
+america
+britain
+china
+czech
+england
+great britain
+holland
+hong-kong
+new-zealand
+pr china
+pr-china
+puerto-rico
+slovak
+south africa
+south korea
+south-africa
+south-korea
+trinidad & tobago
+united-kingdom
+united-states
+utf8
+utf-8
+UTF-8
+UTF-16LEUNICODE
+zh-CHS
+ar-SA
+bg-BG
+ca-ES
+cs-CZ
+da-DK
+de-DE
+el-GR
+fi-FI
+fr-FR
+he-IL
+hu-HU
+is-IS
+it-IT
+nl-NL
+nb-NO
+pl-PL
+pt-BR
+ro-RO
+ru-RU
+hr-HR
+sk-SK
+sq-AL
+sv-SE
+th-TH
+tr-TR
+ur-PK
+id-ID
+uk-UA
+be-BY
+sl-SI
+et-EE
+lv-LV
+lt-LT
+fa-IR
+vi-VN
+hy-AM
+az-AZ-Latn
+eu-ES
+mk-MK
+tn-ZA
+xh-ZA
+zu-ZA
+af-ZA
+ka-GE
+fo-FO
+hi-IN
+mt-MT
+se-NO
+ms-MY
+kk-KZ
+ky-KG
+sw-KE
+uz-UZ-Latn
+tt-RU
+bn-IN
+pa-IN
+gu-IN
+ta-IN
+te-IN
+kn-IN
+ml-IN
+mr-IN
+sa-IN
+mn-MN
+cy-GB
+gl-ES
+kok-IN
+syr-SY
+div-MV
+quz-BO
+ns-ZA
+mi-NZ
+ar-IQ
+de-CH
+en-GB
+es-MX
+fr-BE
+it-CH
+nl-BE
+nn-NO
+pt-PT
+sr-SP-Latn
+sv-FI
+az-AZ-Cyrl
+se-SE
+ms-BN
+uz-UZ-Cyrl
+quz-EC
+ar-EG
+zh-HK
+de-AT
+en-AU
+es-ES
+fr-CA
+sr-SP-Cyrl
+se-FI
+quz-PE
+ar-LY
+zh-SG
+de-LU
+en-CA
+es-GT
+fr-CH
+hr-BA
+smj-NO
+ar-DZ
+zh-MO
+de-LI
+en-NZ
+es-CR
+fr-LU
+bs-BA-Latn
+smj-SE
+ar-MA
+en-IE
+es-PA
+fr-MC
+sr-BA-Latn
+sma-NO
+ar-TN
+en-ZA
+es-DO
+sr-BA-Cyrl
+sma-SE
+ar-OM
+en-JM
+es-VE
+sms-FI
+ar-YE
+en-CB
+es-CO
+smn-FI
+ar-SY
+en-BZ
+es-PE
+ar-JO
+en-TT
+es-AR
+ar-LB
+en-ZW
+es-EC
+ar-KW
+en-PH
+es-CL
+ar-AE
+es-UY
+ar-BH
+es-PY
+ar-QA
+es-BO
+es-SV
+es-HN
+es-NI
+es-PR
+zh-CHT
+af-za
+ar-ae
+ar-bh
+ar-dz
+ar-eg
+ar-iq
+ar-jo
+ar-kw
+ar-lb
+ar-ly
+ar-ma
+ar-om
+ar-qa
+ar-sa
+ar-sy
+ar-tn
+ar-ye
+az-az-cyrl
+az-az-latn
+be-by
+bg-bg
+bn-in
+bs-ba-latn
+ca-es
+cs-cz
+cy-gb
+da-dk
+de-at
+de-ch
+de-de
+de-li
+de-lu
+div-mv
+el-gr
+en-au
+en-bz
+en-ca
+en-cb
+en-gb
+en-ie
+en-jm
+en-nz
+en-ph
+en-tt
+en-us
+en-za
+en-zw
+es-ar
+es-bo
+es-cl
+es-co
+es-cr
+es-do
+es-ec
+es-es
+es-gt
+es-hn
+es-mx
+es-ni
+es-pa
+es-pe
+es-pr
+es-py
+es-sv
+es-uy
+es-ve
+et-ee
+eu-es
+fa-ir
+fi-fi
+fo-fo
+fr-be
+fr-ca
+fr-ch
+fr-fr
+fr-lu
+fr-mc
+gl-es
+gu-in
+he-il
+hi-in
+hr-ba
+hr-hr
+hu-hu
+hy-am
+id-id
+is-is
+it-ch
+it-it
+ja-jp
+ka-ge
+kk-kz
+kn-in
+kok-in
+ko-kr
+ky-kg
+lt-lt
+lv-lv
+mi-nz
+mk-mk
+ml-in
+mn-mn
+mr-in
+ms-bn
+ms-my
+mt-mt
+nb-no
+nl-be
+nl-nl
+nn-no
+ns-za
+pa-in
+pl-pl
+pt-br
+pt-pt
+quz-bo
+quz-ec
+quz-pe
+ro-ro
+ru-ru
+sa-in
+se-fi
+se-no
+se-se
+sk-sk
+sl-si
+sma-no
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-fi
+sq-al
+sr-ba-cyrl
+sr-ba-latn
+sr-sp-cyrl
+sr-sp-latn
+sv-fi
+sv-se
+sw-ke
+syr-sy
+ta-in
+te-in
+th-th
+tn-za
+tr-tr
+tt-ru
+uk-ua
+ur-pk
+uz-uz-cyrl
+uz-uz-latn
+vi-vn
+xh-za
+zh-chs
+zh-cht
+zh-cn
+zh-hk
+zh-mo
+zh-sg
+zh-tw
+zu-za
+CONOUT$
+ToolRunner
+eHandleValue
+Failed to retrieve the AAD user token. Can't get the request error code
+Failed to retrieve the AAD user token
+Failed to retrieve the ID from AAD user token
+Failed to retrieve the UPN from AAD user token
+TenantId
+Failed to retrieve the TenantId from AAD user token
+resource
+authority
+TryGetAadUserIdFromRegistry::AadAccountCache is disabled
+SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status\AadAccountCache\
+AadUserId
+TryGetAadUserIdFromRegistry::AadUserId not found in registry.
+TryGetAadUserIdFromRegistry::AadUserId found in registry.
+TryGetAadUserUpnFromRegistry::AadAccountCache is disabled
+AadUserUpn
+TryGetAadUserUpnFromRegistry::AadUserUpn not found in registry.
+TryGetAadUserUpnFromRegistry::AadUserUpn found in registry.
+TryGetAadStatusFromRegistry::AadAccountCache is disabled
+AadStatus
+TryGetAadStatusFromRegistry::AadStatus not found in registry.
+TryGetAadStatusFromRegistry::AadStatus found in registry.
+TryGetUpnSourceFromRegistry::UserIdKeyConfig is disabled
+UpnSource
+TryGetUpnSourceFromRegistry::UpnSource not found in registry.
+TryGetUpnSourceFromRegistry::UpnSource found in registry.
+TryGetNetGetAadJoinInformationUpnFromRegistry::UserIdKeyConfig is disabled
+NetGetAadJoinInformationUpn
+TryGetNetGetAadJoinInformationUpnFromRegistry::NetGetAadJoinInformationUpn not found in registry.
+TryGetNetGetAadJoinInformationUpnFromRegistry::NetGetAadJoinInformationUpn found in registry.
+TryGetGetUserNameExUpnFromRegistry::UserIdKeyConfig is disabled
+GetUserNameExUpn
+TryGetGetUserNameExUpnFromRegistry::GetUserNameExUpn not found in registry.
+TryGetGetUserNameExUpnFromRegistry::GetUserNameExUpn found in registry.
+SaveAadUserIdToRegistry::AadAccountCache is disabled
+SaveAadUserIdToRegistry:: AadUserId received is empty.
+SaveAadUserIdToRegistry::AadUserId to be saved, already present in registry.
+SaveAadUserIdToRegistry::AadUserId saved in registry.
+SaveAadUserIdToRegistry::Failed setting AadUserId under registry.
+SaveAadUserUpnToRegistry::AadAccountCache is disabled
+SaveAadUserUpnToRegistry:: AadUserUpn received is empty.
+SaveAadUserUpnToRegistry::AadUserUpn to be saved, already present in registry.
+SaveAadUserUpnToRegistry::AadUserUpn saved in registry.
+SaveAadUserUpnToRegistry::Failed setting AadUserUpn under registry.
+SaveAadStatusToRegistry::AadAccountCache is disabled
+SaveAadStatusToRegistry::AadStatus to be saved, already present in registry.
+SaveAadStatusToRegistry::AadStatus saved in registry.
+SaveAadStatusToRegistry::Failed setting AadStatus under registry.
+SaveUpnSourceToRegistry::UserIdKeyConfig is disabled
+SaveUpnSourceToRegistry::UpnSource to be saved, already present in registry.
+SaveUpnSourceToRegistry::UpnSource saved in registry.
+SaveUpnSourceToRegistry::Failed setting UpnSource under registry.
+SaveNetGetAadJoinInformationUpnToRegistry::UserIdKeyConfig is disabled
+SaveNetGetAadJoinInformationUpnToRegistry:: NetGetAadJoinInformationUpn received is empty.
+SaveNetGetAadJoinInformationUpnToRegistry::NetGetAadJoinInformationUpn to be saved, already present in registry.
+SaveNetGetAadJoinInformationUpnToRegistry::NetGetAadJoinInformationUpn saved in registry.
+SaveNetGetAadJoinInformationUpnToRegistry::Failed setting NetGetAadJoinInformationUpn under registry.
+SaveGetUserNameExUpnToRegistry::UserIdKeyConfig is disabled
+SaveGetUserNameExUpnToRegistry::GetUserNameExUpn received is empty.
+SaveGetUserNameExUpnToRegistry::GetUserNameExUpn to be saved, already present in registry.
+SaveGetUserNameExUpnToRegistry::GetUserNameExUpn saved in registry.
+SaveGetUserNameExUpnToRegistry::Failed setting GetUserNameExUpn under registry.
+CleanupAadUserId::AadAccountCache is disabled
+CleanupAadUserId::Failed to cleanup AadUserId in registry.
+CleanupAadUserId::Successfully cleaned up AadUserId in registry.
+CleanupAadUserUpn::AadAccountCache is disabled
+CleanupAadUserUpn::Failed to cleanup AadUserUpn in registry.
+CleanupAadUserUpn::Successfully cleaned up AadUserUpn in registry.
+CleanupAadStatus::AadAccountCache is disabled
+CleanupAadStatus::Failed to cleanup AadStatus in registry.
+CleanupAadStatus::Successfully cleaned up AadStatus in registry.
+CleanupNetGetAadJoinInformationUpn::UserIdKeyConfig is disabled
+CleanupNetGetAadJoinInformationUpn::Failed to cleanup NetGetAadJoinInformationUpn in registry.
+CleanupNetGetAadJoinInformationUpn::Successfully cleaned up NetGetAadJoinInformationUpn in registry.
+CleanupGetUserNameExUpn::UserIdKeyConfig is disabled
+CleanupGetUserNameExUpn::Failed to cleanup GetUserNameExUpn in registry.
+CleanupGetUserNameExUpn::Successfully cleaned up GetUserNameExUpn in registry.
+CleanupAadAccountCache::AadAccountCache is disabled
+tSHA384
+SHA512
+Resource
+ToolRunnerBase - Resource Manager is disabled; Running the payload in a seperate Job object
+Failed to create a job and set cpu and memory limit. Terminate the process
+Failed to resume thread
+Successfully resumed thread
+.mui
+SafeCreateProcess about to create process
+SafeCreateProcess concluded paths
+No environment variables to set
+winsta0\default
+Failed to create sense sid
+Failed to create restricted token
+Failed to adjust token privilege
+Failed to verify binary - microsoft signed
+Failed to verify binary - original filename
+SeChangeNotifyPrivilege
+SeImpersonatePrivilege
+KERNEL32.DLL
+ResourceManagerWrapper
+ResourceManager
+Normalization
+Applying the same limit as Sense to the payload, since the payload's requested limit is higher than the limit applied on Sense
+Failed to get available system memory
+Updating the already monitored Payload object with new limits
+Failed to enforce the updated limits on the payload
+ MB;
+ResourceMetrics
+SenseMemoryLimit
+IsSenseMemoryLimitRelative
+FailFastScheduleInMinutes
+FailFastEventToCrashTimeInSeconds
+SendHeartbeatTimeInSeconds
+ResourceManagerSnapshotIntervalInMinutes
+ResourceManagerSnapshotMaxRecords
+DisableCpuLimitOnDFSS
+Enabled
+AuditMode
+SenseCPUAuditMode
+SenseMemoryAuditMode
+EnforceSenseJobMemoryHardLimit
+ProbesSlidingWindowRevertSize
+ProbesSlidingWindowEscalateSize
+ProbingIntervalInSeconds
+ProbesNeededForStateEscalate
+ProbesNeededToRevertState
+ResourceUsagePercentageForEcoMode
+ResourceUsagePercentageForCriticalMode
+SenseCpuRateLimit
+Create resource Monitor
+Payload stopping notification thread
+Successfully updated payload limits
+Failed to set CPU limit on the Job object due to DFSS.
+ResourceManager: Failed to create metrics instruments
+ReadOnlyConfigurationSettings
+EnabledFallbackConfiguration
+FallbackConfigurationWindowSizeInMins
+FallbackConfigurationMaxEvents
+fallback
+intuneDeviceId
+0.0.0.0
+CommandTypesToUseCncReporter
+CommandUriDownloader3
+IsolationAutoRecoveryMetadata
+CommandUriDownloaderUseCncWrapper
+IsolationRemainingTimeToActivateRecoveryInSec
+IsolationHeartbeatsToConsiderConnectivity
+IsolationAutoRecoveryTimeBetweenUpdatesInSec
+TimeToActivateRecoveryInSec
+InitiateSystemTime
+tenantid
+machineid
+MsaDeviceTicket
+body
+cert
+sha256sig
+chain
+Authorization
+Bearer
+disableFallbackToGetRequest
+disableFixCommandUri
+sendLogicVersionInHeartbeatBitmask
+AcceptMsTestRoot
+/commands
+/commands/cnc
+/notifications/register
+application/json
+isSessionNonce
+downloadedFromUriContentType
+maxContnetSizeKb
+workingThreadExitTimeoutInMs
+CommandUriDownloader
+downloadRequestQueueSize
+clientver
+computerdnsname
+defenderGuid
+senseguid
+watsonid
+configVer
+dataCollectionConfigVer
+securityManagementConfigVer
+securityManagementConfigHash
+groupIds
+lastNormalUploadTime
+lastRealtimeUploadTime
+dlpPolicyConfigurationHash
+dlpDomainsPolicyConfigurationHash
+dlpWebSitesPolicyConfigurationHash
+dlpSensitiveInfoTypesConfigurationHash
+servicesStatus
+platformStatus
+productType
+stateMask
+deniedCnCActionsBitmask
+cyberChannelError
+cyberChannelHttpError
+cncBitmask
+proxyConfigurationMethod
+proxyAddress
+productInfo
+osVer
+configurationmodules
+moduleType
+version
+hash
+devicetags
+name
+value
+ring
+capabilities
+lastDownloadsStatuses
+TrackingId
+HResult
+processorArchitecture
+subAuthState
+subAuthStateLastHr
+disruptionState
+expirationTimestamp
+offlineCommand
+schemaVersion
+timestamp
+priority
+isRebootPersistent
+connectivityTtl
+rules
+addresses
+networks
+actionBlock
+auditMode
+direction
+ruleTag
+addressType
+ipv4
+ipv6
+expirationDate
+ports
+securitymanagementconfiguration
+data
+datacollectionconfiguration
+NetworkState
+BatteryState
+IsolationState
+IsIsolatedFromRegIndication
+O:%sD:(A;;CC;;;%s)
+IsolationCollector
+Properties
+Name
+productName
+productState
+productSigStatus
+root\Microsoft\Windows\DeviceGuard
+SELECT * FROM Win32_DeviceGuard
+EnvironmentInfoHandler
+SELECT * FROM Win32_ComputerSystem
+Model
+Virtual Machine
+HVM domU
+Google Compute Engine
+VmWmiModels
+MDE WFP Machine Isolation Session
+A stream was set on the message and extraction is not possible
+Charset must be iso-8859-1, utf-8, utf-16, utf-16le, or utf-16be to be extracted.
+text
+POST
+DELETE
+HEAD
+OPTIONS
+TRACE
+CONNECT
+MERGE
+PATCH
+Accept
+Accept-Charset
+Accept-Encoding
+Accept-Language
+Accept-Ranges
+Access-Control-Allow-Origin
+Allow
+Cache-Control
+Connection
+Content-Encoding
+Content-Language
+Content-Length
+Content-Location
+Content-MD5
+Content-Range
+Content-Type
+Content-Disposition
+Date
+ETag
+Expect
+Expires
+From
+Host
+If-Match
+If-Modified-Since
+If-None-Match
+If-Range
+If-Unmodified-Since
+Last-Modified
+Location
+Max-Forwards
+Pragma
+Proxy-Authenticate
+Proxy-Authorization
+Range
+Referer
+Retry-After
+Server
+Trailer
+Transfer-Encoding
+Upgrade
+User-Agent
+Vary
+Warning
+WWW-Authenticate
+application/atom+xml
+application/http
+application/javascript
+application/x-json
+application/x-www-form-urlencoded
+multipart/form-data
+boundary
+form-data
+application/x-javascript
+application/xml
+message/http
+text/javascript
+text/json
+text/plain
+text/plain; charset=utf-16
+text/plain; charset=utf-16le
+text/plain; charset=utf-8
+text/x-javascript
+text/x-json
+ascii
+us-ascii
+iso-8859-1
+utf-16
+utf-16le
+utf-16be
+A GET or HEAD request should not have an entity body.
+oauth_callback
+oauth_callback_confirmed
+oauth_consumer_key
+oauth_nonce
+realm
+oauth_signature
+oauth_signature_method
+oauth_timestamp
+oauth_token
+oauth_token_secret
+oauth_verifier
+oauth_version
+HMAC-SHA1
+PLAINTEXT
+root\cimv2
+NoisyPaths
+PriorityExtensions
+Value
+senseconfiguration
+samplerequestcommand
+path
+sha1
+sasuri
+size
+compression
+dlppolicyconfiguration
+paramsstr
+dlpdomainspolicyconfiguration
+dlpwebsitespolicyconfiguration
+dlpsensitiveinfotypesconfiguration
+offboardingcommand
+regenerateidcommand
+commandrequesterror
+forensicscollectioncommand
+remediationcommand
+senseforensicscollectioncommand
+isolationcommand
+unisolationcommand
+scancommand
+restrictexecutioncommand
+unrestrictexecutioncommand
+incidentresponsecommand
+terminateincidentresponsecommand
+endpointconfigmanagementenrollcommand
+endpointconfigmanagementcheckincommand
+endpointconfigmanagementunenrollcommand
+endpointconfigmanagementresetcontrolledconfigcommand
+troubleshootcommand
+undocleanresourcecommand
+mdetenantidmappingcommand
+tokenrefreshcommand
+reregister
+regenerateIdentity
+configuridownloader
+configurationmodule
+moduletype
+ispersistent
+removeconfigurationmodule
+triggerusermfacommand
+mfaType
+workstation
+user
+domain
+cookie
+allowTokenCaching
+clientId
+authorityUri
+redirectUri
+resourceId
+offlinefirewallcommand
+firewallpolicydata
+policysource
+policyname
+Invalid
+ColdDataDiscoveryPolicy
+GenericEtwEvent
+tAllowCapping
+FirewallConfiguratorSubPolicy_
+EnableExclusions
+Paths
+Extensions
+Processes
+PredecessorProcesses
+Process
+server
+ExtendedHttpRetryErrorCodes
+deflate
+DeviceTagsMonitor
+DeviceTagsConfig
+none
+demo
+expedite
+normal
+onAcTimeout
+onBatteryNormalTimeout
+onBatteryLowTimeout
+onBatteryCriticalTimeout
+onCostedNetworkTimeout
+onBatterySaverTimeout
+onConnectedStandbyTimeout
+onWnsDisconnectedTimeout
+onRiskBasedTimeout
+3.0.0.9
+InitiatingProcess
+InitiatingProcessStartKey
+TS_ID
+STACK_TRACE
+EVENT_KEY
+PROCESS_START_KEY
+EtwActivityId
+InitiatingProcessId
+InitiatingProcessSource
+EventTimestamp
+properties
+aggregation
+filters
+capping
+TRIGGER
+COUNT
+NOAGGREGATION
+DIFF
+FIRST
+LAST
+TIMELINE
+NONE
+IPTODNSENTITY
+FILESCANACTION
+PROCESSSCANACTION
+VALIDATESIGNATUREACTION
+SETFILEHASH
+EXTRACTFILE
+REVERSEDNS
+DATAATRESTFILELABELING
+DATAATUSEFILELABELING
+EXTRACTFILESFROMCMDLINE
+RESOLVESHELLLINKACTION
+EXTRACTDLPAUDITFIELDS
+SAMPLE
+TEST
+REPROCESS
+DONOTREPORT
+GETLOGGEDONUSERS
+SOCKETTYPE
+ARCHIVEFILEEXTRACT
+DATAATRESTARCHIVEFILEEXTRACT
+DATAATUSEARCHIVEFILEEXTRACT
+SYNCFILELABELING
+EXTRACTSYNCAPPINFOACTION
+EXTRACTGROUPPOLICY
+LMFENFORCEMENTCHECK
+LOGONBOUNCERENFORCEMENTCHECK
+SYSTEMACCESSCHANGEACTION
+REVERSEDNSFROMIP
+RMSLABELING
+DISCOVERYPOLICYFILTERING
+ADDPROPERTY
+FILESOURCESERIALIZER
+AMSI
+UNICODESTRING
+ANSISTRING
+INT8
+UINT8
+INT16
+UINT16
+INT32
+UINT32
+INT64
+UINT64
+FLOAT
+DOUBLE
+BOOLEAN
+BINARY
+BINARYIPV6
+BINARYSOCKADDR
+HEXINT32
+HEXINT64
+FILETIME
+SYSTEMTIME
+POINTER
+BETWEEN
+BEGINSWITH
+ENDSWITH
+CONTAINS
+CONTAINSANY
+REGEXMATCH
+ExtractCiInformation
+FileExtensionExtract
+Substract
+ExtractSocketAddress
+ExtractSocketAddressPort
+ExtractSocketAddressWithDns
+CanonizeFilePath
+EXTRACTPROCESS
+EXTRACTUSER
+REGEXEXTRACT
+MULTIREGEXEXTRACT
+EXTRACTFILEBACKTRACE
+ExtractHResult
+EXTRACTREGISTRYKEY
+REGISTRYVALUETOSTRING
+ISIPINRANGE
+LONGESTMATCH
+ExtractMemory
+Divide
+Multiply
+Modulo
+NativePathToWin32Path
+PROCESS_NAME
+PROCESS_CMD_LINE
+PROCESS_FILE_SHA1
+PROCESS_FILE_NATIVE_PATH
+PROCESS_ACCOUNT_USER_NAME
+PROCESS_ACCOUNT_USER_DOMAIN
+PROCESS_ACCOUNT_AAD_USER_UPN
+PROCESS_ACCOUNT_USER_SID
+PROCESS_REPARENT_ENTITY
+PROCESS_FILE_ENTITY
+PROCESS_IMAGE_ORIGINAL_NAME
+PROCESS_CI_SIGNING_LEVEL
+PROCESS_CI_SIGNING_CHAIN_STATE
+PROCESS_CI_MICROSOFT_ROOT_AUTHORITY_STATE
+PROCESS_CI_MICROSOFT_APPLICATION_ROOT_AUTHORITY_STATE
+PROCESS_CREATION_ANOMALIES
+PROCESS_DESKTOP_INFO
+PROCESS_PROTECTION_LEVEL
+PROCESS_INTEGRITY_LEVEL
+PROCESS_FILE_WIN32_PATH
+PROCESS_FILE_VERSION_INFO_COMPANY_NAME
+PROCESS_FILE_VERSION_INFO_PRODUCT_NAME
+PROCESS_FILE_VERSION_INFO_INTERNAL_FILE_NAME
+PARENT_PROCESS_NAME
+INFERRED_PARENT_PROCESS_NAME
+PARENT_PROCESS_CMD_LINE
+INFERRED_PARENT_PROCESS_CMD_LINE
+PARENT_PROCESS_FILE_SHA1
+INFERRED_PARENT_PROCESS_FILE_SHA1
+PARENT_PROCESS_FILE_NATIVE_PATH
+INFERRED_PARENT_PROCESS_FILE_NATIVE_PATH
+PARENT_PROCESS_ACCOUNT_USER_NAME
+INFERRED_PARENT_PROCESS_ACCOUNT_USER_NAME
+PARENT_PROCESS_ACCOUNT_USER_DOMAIN
+INFERRED_PARENT_PROCESS_ACCOUNT_USER_DOMAIN
+PARENT_PROCESS_ACCOUNT_USER_SID
+INFERRED_PARENT_PROCESS_ACCOUNT_USER_SID
+PARENT_PROCESS_REPARENT_ENTITY
+INFERRED_PARENT_PROCESS_REPARENT_ENTITY
+PARENT_PROCESS_FILE_ENTITY
+INFERRED_PARENT_PROCESS_FILE_ENTITY
+PARENT_PROCESS_IMAGE_ORIGINAL_NAME
+INFERRED_PARENT_PROCESS_IMAGE_ORIGINAL_NAME
+PARENT_PROCESS_CI_SIGNING_LEVEL
+INFERRED_PARENT_PROCESS_CI_SIGNING_LEVEL
+PARENT_PROCESS_CI_SIGNING_CHAIN_STATE
+INFERRED_PARENT_PROCESS_CI_SIGNING_CHAIN_STATE
+PARENT_PROCESS_CI_MICROSOFT_ROOT_AUTHORITY_STATE
+PARENT_PARENT_PROCESS_CI_MICROSOFT_ROOT_AUTHORITY_STATE
+INFERRED_PARENT_PARENT_PROCESS_CI_MICROSOFT_ROOT_AUTHORITY_STATE
+PARENT_PROCESS_CI_MICROSOFT_APPLICATION_ROOT_AUTHORITY_STATE
+INFERRED_PARENT_PROCESS_CI_MICROSOFT_APPLICATION_ROOT_AUTHORITY_STATE
+PARENT_PROCESS_ACCOUNT_AAD_USER_UPN
+INFERRED_PARENT_PROCESS_ACCOUNT_AAD_USER_UPN
+PARENT_PROCESS_CREATION_ANOMALIES
+INFERRED_PARENT_PROCESS_CREATION_ANOMALIES
+PARENT_PROCESS_DESKTOP_INFO
+INFERRED_PARENT_PROCESS_DESKTOP_INFO
+PARENT_PROCESS_PROTECTION_LEVEL
+INFERRED_PARENT_PROCESS_PROTECTION_LEVEL
+PARENT_PROCESS_INTEGRITY_LEVEL
+INFERRED_PARENT_PROCESS_INTEGRITY_LEVEL
+PARENT_PROCESS_FILE_WIN32_PATH
+INFERRED_PARENT_PROCESS_FILE_WIN32_PATH
+PARENT_PROCESS_FILE_VERSION_INFO_COMPANY_NAME
+INFERRED_PARENT_PROCESS_FILE_VERSION_INFO_COMPANY_NAME
+PARENT_PROCESS_FILE_VERSION_INFO_PRODUCT_NAME
+INFERRED_PARENT_PROCESS_FILE_VERSION_INFO_PRODUCT_NAME
+PARENT_PROCESS_FILE_VERSION_INFO_INTERNAL_FILE_NAME
+INFERRED_PARENT_PROCESS_FILE_VERSION_INFO_INTERNAL_FILE_NAME
+PROCESSCREATIONTIME
+PROCESSSTARTKEY
+ADDITIONALEXTRACTIONDISABLED
+ADDITIONALEXTRACTIONENABLED
+MULTISID
+EnableNonPeExtraction
+DisableNonPeExtraction
+IMAGE_FILE_SHA1
+IMAGE_FILE_NAME
+IMAGE_FILE_WIN32PATH
+IMAGE_FILE_SIZE
+IMAGE_FILE_CREATION_TIME
+IMAGE_FILE_LAST_ACCESS_TIME
+IMAGE_FILE_LAST_WRITE_TIME
+IMAGESHA1
+IMAGESHA256
+IMAGEMD5
+PARTIALCRC1
+PARTIALCRC2
+PARTIALCRC3
+IMAGELSH
+MOTW
+FILEPATH
+FILENAME
+EXTENSION
+FILENAMEWITHEXTENSION
+\REGISTRY\
+USER
+MACHINE
+MEMORY_BASIC_INFORMATION
+IMAGE_FILE_PATH
+ISSIGNINGCHAINVALID
+ISMICROSOFTROOT
+ISMICROSOFTAPPLICATIONROOT
+SIGNINGLEVEL
+NATIVEPATH
+ProcessCache
+ProcessCacheCapacity
+ProcessCacheRefreshPeriod
+ProcessCacheTerminatedProcessCapacity
+ProcessCacheTerminatedProcessRefreshPeriod
+ProcessRecyclingTimeFrame
+ProcessRecyclingState
+FileCache
+FileCacheCapacity
+FileCacheRefreshPeriod
+VS_VERSION_INFO
+StringFileInfo
+040904B0
+CompanyName
+Microsoft Corporation
+FileDescription
+Run PS Script
+FileVersion
+10.8805.27858.1000 (49ec2ba404a146e2f20517290464d2aae1eceb59) (WinBuild.160101.0800)
+InternalName
+RunPsScript.dll
+LegalCopyright
+ Microsoft Corporation. All rights reserved.
+OriginalFilename
+RunPsScript.dll
+ProductName
+Microsoft
+ Windows
+ Operating System
+ProductVersion
+10.8805.27858.1000
+VarFileInfo
+Translation
+SubC
+Microsof
+SubC
