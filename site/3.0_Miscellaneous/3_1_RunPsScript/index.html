@@ -905,6 +905,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#prunpsscript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        pRunPsScript()
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="pRunPsScript()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scriptrunnerrun" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ScriptRunner::Run()
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1064,6 +1092,34 @@
     <span class="md-ellipsis">
       
         SenseCM.exe Compiler Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prunpsscript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        pRunPsScript()
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="pRunPsScript()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scriptrunnerrun" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ScriptRunner::Run()
       
     </span>
   </a>
@@ -1327,6 +1383,143 @@ This can also be verified in the <code>LoadLibraryW</code> function call:</p>
 </span><span id="__span-12-17"><a id="__codelineno-12-17" name="__codelineno-12-17" href="#__codelineno-12-17"></a><span class="nf">mov</span><span class="w">     </span><span class="no">qword</span><span class="w"> </span><span class="p">[</span><span class="no">rsi</span><span class="err">+</span><span class="mi">0x58</span><span class="p">],</span><span class="w"> </span><span class="no">rax</span>
 </span><span id="__span-12-18"><a id="__codelineno-12-18" name="__codelineno-12-18" href="#__codelineno-12-18"></a><span class="nf">test</span><span class="w">    </span><span class="no">rax</span><span class="p">,</span><span class="w"> </span><span class="no">rax</span>
 </span><span id="__span-12-19"><a id="__codelineno-12-19" name="__codelineno-12-19" href="#__codelineno-12-19"></a><span class="nf">jne</span><span class="w">     </span><span class="mi">0x1401a5033</span>
+</span></code></pre></div>
+<h2 id="prunpsscript"><code>pRunPsScript()</code></h2>
+<h3 id="scriptrunnerrun"><code>ScriptRunner::Run()</code></h3>
+<div class="language-cpp highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="k">class</span><span class="w"> </span><span class="nc">stdext</span><span class="o">::</span><span class="n">result</span><span class="o">&lt;</span><span class="k">struct</span><span class="w"> </span><span class="nc">configuration_management</span><span class="o">::</span><span class="n">ScriptResults</span><span class="o">&gt;</span><span class="w"> </span><span class="n">configuration_management</span><span class="o">::</span><span class="n">windows</span><span class="o">::</span><span class="n">ScriptRunner</span><span class="o">::</span><span class="n">Run</span><span class="p">(</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="w">    </span><span class="k">struct</span><span class="w"> </span><span class="nc">configuration_management</span><span class="o">::</span><span class="n">windows</span><span class="o">::</span><span class="n">ScriptRunner</span><span class="o">*</span><span class="w"> </span><span class="k">this</span><span class="p">,</span><span class="w"> </span>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="w">    </span><span class="k">class</span><span class="w"> </span><span class="nc">std</span><span class="o">::</span><span class="n">shared_ptr</span><span class="o">&lt;</span><span class="k">struct</span><span class="w"> </span><span class="nc">configuration_management</span><span class="o">::</span><span class="n">ScriptFlow</span><span class="o">&gt;</span><span class="w"> </span><span class="n">arg2</span><span class="p">,</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="k">const</span><span class="o">&amp;</span><span class="w"> </span><span class="n">arg3</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="w">    </span><span class="c1">// ...</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="w">    </span><span class="n">FARPROC</span><span class="w"> </span><span class="n">pRunPsScript</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">this_2</span><span class="o">-&gt;</span><span class="n">pRunPsScript</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="w">    </span><span class="c1">// ...</span>
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a>
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a><span class="w">    </span><span class="kt">int32_t</span><span class="w"> </span><span class="n">rax_77</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pRunPsScript</span><span class="p">()</span>
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a>
+</span><span id="__span-13-14"><a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a><span class="w">    </span><span class="c1">// ...</span>
+</span><span id="__span-13-15"><a id="__codelineno-13-15" name="__codelineno-13-15" href="#__codelineno-13-15"></a><span class="p">}</span>
+</span></code></pre></div>
+<div class="language-asm highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nf">lea</span><span class="w">     </span><span class="no">rdx</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x5a0</span><span class="w"> </span><span class="p">{</span><span class="no">var_118</span><span class="p">}]</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a><span class="err">&lt;!--</span><span class="w"> </span><span class="na">...</span><span class="w"> </span><span class="p">--</span><span class="err">&gt;</span>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="nf">mov</span><span class="w">     </span><span class="no">qword</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x40</span><span class="w"> </span><span class="p">{</span><span class="no">var_678_1</span><span class="p">}],</span><span class="w"> </span><span class="no">r15</span><span class="w">  </span><span class="p">{</span><span class="mi">0x0</span><span class="p">}</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a><span class="nf">mov</span><span class="w">     </span><span class="no">qword</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x38</span><span class="w"> </span><span class="p">{</span><span class="no">var_680_1</span><span class="p">}],</span><span class="w"> </span><span class="no">r15</span><span class="w">  </span><span class="p">{</span><span class="mi">0x0</span><span class="p">}</span>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="nf">mov</span><span class="w">     </span><span class="no">qword</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x30</span><span class="w"> </span><span class="p">{</span><span class="no">var_688_2</span><span class="p">}],</span><span class="w"> </span><span class="no">rax</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="nf">mov</span><span class="w">     </span><span class="no">qword</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x28</span><span class="w"> </span><span class="p">{</span><span class="no">var_690_2</span><span class="p">}],</span><span class="w"> </span><span class="no">r8</span>
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a><span class="nf">mov</span><span class="w">     </span><span class="no">dword</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x20</span><span class="w"> </span><span class="p">{</span><span class="no">var_698</span><span class="p">}],</span><span class="w"> </span><span class="no">edx</span>
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="nf">lea</span><span class="w">     </span><span class="no">r9</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0xd0</span><span class="w"> </span><span class="p">{</span><span class="no">var_5e8</span><span class="p">}]</span>
+</span><span id="__span-14-11"><a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a><span class="nf">lea</span><span class="w">     </span><span class="no">r8</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x240</span><span class="w"> </span><span class="p">{</span><span class="no">var_478</span><span class="p">}]</span>
+</span><span id="__span-14-12"><a id="__codelineno-14-12" name="__codelineno-14-12" href="#__codelineno-14-12"></a><span class="nf">mov</span><span class="w">     </span><span class="no">edx</span><span class="p">,</span><span class="w"> </span><span class="no">dword</span><span class="w"> </span><span class="p">[</span><span class="no">rsi</span><span class="err">+</span><span class="mi">0x68</span><span class="p">]</span>
+</span><span id="__span-14-13"><a id="__codelineno-14-13" name="__codelineno-14-13" href="#__codelineno-14-13"></a><span class="nf">lea</span><span class="w">     </span><span class="no">rcx</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="no">rsp</span><span class="err">+</span><span class="mi">0x60</span><span class="w"> </span><span class="p">{</span><span class="no">var_658</span><span class="p">}]</span>
+</span><span id="__span-14-14"><a id="__codelineno-14-14" name="__codelineno-14-14" href="#__codelineno-14-14"></a><span class="nf">mov</span><span class="w">     </span><span class="no">rax</span><span class="p">,</span><span class="w"> </span><span class="no">rbx</span>
+</span><span id="__span-14-15"><a id="__codelineno-14-15" name="__codelineno-14-15" href="#__codelineno-14-15"></a><span class="nf">call</span><span class="w">    </span><span class="no">qword</span><span class="w"> </span><span class="p">[</span><span class="no">rel</span><span class="w"> </span><span class="no">__guard_dispatch_icall_fptr</span><span class="p">]</span>
+</span><span id="__span-14-16"><a id="__codelineno-14-16" name="__codelineno-14-16" href="#__codelineno-14-16"></a><span class="nf">mov</span><span class="w">     </span><span class="no">r13d</span><span class="p">,</span><span class="w"> </span><span class="no">eax</span>
+</span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Index</th>
+<th style="text-align: left;">Argument</th>
+<th style="text-align: left;">Source</th>
+<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;"><code>rcx</code></td>
+<td style="text-align: left;"><code>[rsp+0x60]</code></td>
+<td style="text-align: left;"><code>var_658</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;"><code>rdx</code></td>
+<td style="text-align: left;"><code>[rsp+0x50]</code></td>
+<td style="text-align: left;"><code>var_118</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;"><code>r8</code></td>
+<td style="text-align: left;"><code>[rsp+0x240]</code></td>
+<td style="text-align: left;"><code>var_478</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;"><code>r9</code></td>
+<td style="text-align: left;"><code>[rsp+0xd0]</code></td>
+<td style="text-align: left;"><code>var_5e8</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;"><code>[rsp+0x20]</code></td>
+<td style="text-align: left;"><code>edx</code></td>
+<td style="text-align: left;"><code>?</code></td>
+<td style="text-align: left;"><code>uint32_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;"><code>[rsp+0x28]</code></td>
+<td style="text-align: left;"><code>r8</code></td>
+<td style="text-align: left;"><code>var_5c8</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;"><code>[rsp+0x30]</code></td>
+<td style="text-align: left;"><code>rax</code></td>
+<td style="text-align: left;"><code>var_5a8</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;"><code>[rsp+0x38]</code></td>
+<td style="text-align: left;"><code>r15</code></td>
+<td style="text-align: left;"><code>{0x0}</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;"><code>[rsp+0x40]</code></td>
+<td style="text-align: left;"><code>r15</code></td>
+<td style="text-align: left;"><code>{0x0}</code></td>
+<td style="text-align: left;"><code>uint64_t</code></td>
+</tr>
+</tbody>
+</table>
+<div class="language-cpp highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kt">uint32_t</span><span class="w"> </span><span class="n">RunPsScript</span><span class="p">(</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg1</span><span class="p">,</span><span class="w">      </span><span class="c1">// lea rcx, [rsp+0x60 {var_658}]</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg2</span><span class="p">,</span><span class="w">      </span><span class="c1">// lea rdx, [rsp+0x5a0 {var_118}]</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg3</span><span class="p">,</span><span class="w">      </span><span class="c1">// lea r8, [rsp+0x240 {var_478}]</span>
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg4</span><span class="p">,</span><span class="w">      </span><span class="c1">// lea r9, [rsp+0xd0 {var_5e8}]</span>
+</span><span id="__span-15-6"><a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>
+</span><span id="__span-15-7"><a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="w">    </span><span class="kt">uint32_t</span><span class="w"> </span><span class="n">arg5</span><span class="p">,</span><span class="w">      </span><span class="c1">// mov dword [rsp+0x20 {var_698}], edx</span>
+</span><span id="__span-15-8"><a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>
+</span><span id="__span-15-9"><a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg6</span><span class="p">,</span><span class="w">      </span><span class="c1">// mov qword [rsp+0x28 {var_690_2}], r8</span>
+</span><span id="__span-15-10"><a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg7</span><span class="p">,</span><span class="w">      </span><span class="c1">// mov qword [rsp+0x30 {var_688_2}], rax</span>
+</span><span id="__span-15-11"><a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg8</span><span class="p">,</span><span class="w">      </span><span class="c1">// mov qword [rsp+0x38 {var_680_1}], r15  {0x0}</span>
+</span><span id="__span-15-12"><a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a><span class="w">    </span><span class="kt">uint64_t</span><span class="w"> </span><span class="n">arg9</span><span class="w">       </span><span class="c1">// mov qword [rsp+0x40 {var_678_1}], r15  {0x0}</span>
+</span><span id="__span-15-13"><a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a><span class="p">)</span>
+</span></code></pre></div>
+<div class="language-cpp highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kt">uint32_t</span><span class="w"> </span><span class="n">rax_74</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pRunPsScript</span><span class="p">(</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="w">    </span><span class="o">&amp;</span><span class="n">arg1</span><span class="p">,</span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="w">    </span><span class="k">this</span><span class="o">-&gt;</span><span class="n">__offset</span><span class="p">(</span><span class="mh">0x68</span><span class="p">),</span>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="w">    </span><span class="o">&amp;</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">__offset</span><span class="p">(</span><span class="mh">0x70</span><span class="p">),</span>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="w">    </span><span class="o">&amp;</span><span class="k">this</span><span class="o">-&gt;</span><span class="n">__offset</span><span class="p">(</span><span class="mh">0x90</span><span class="p">),</span>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="w">    </span><span class="n">arg5</span><span class="p">,</span>
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a><span class="w">    </span><span class="n">arg6</span><span class="p">,</span>
+</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="w">    </span><span class="n">arg7</span><span class="p">,</span>
+</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="w">    </span><span class="nb">NULL</span><span class="p">,</span>
+</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a><span class="w">    </span><span class="nb">NULL</span>
+</span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a><span class="p">)</span>
 </span></code></pre></div>
 
 
