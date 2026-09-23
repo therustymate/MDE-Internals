@@ -294,3 +294,76 @@ jne     0x1401a5033
 
 
 ```
+
+## `pRunPsScript()`
+
+### `ScriptRunner::Run()`
+
+```cpp
+class stdext::result<struct configuration_management::ScriptResults> configuration_management::windows::ScriptRunner::Run(
+    struct configuration_management::windows::ScriptRunner* this, 
+    class std::shared_ptr<struct configuration_management::ScriptFlow> arg2,
+    std::string const& arg3
+) {
+    // ...
+
+    FARPROC pRunPsScript = this_2->pRunPsScript
+
+    // ...
+
+    int32_t rax_77 = pRunPsScript()
+
+    // ...
+}
+```
+
+```asm
+lea     rdx, [rsp+0x5a0 {var_118}]
+
+<!-- ... -->
+
+mov     qword [rsp+0x40 {var_678_1}], r15  {0x0}
+mov     qword [rsp+0x38 {var_680_1}], r15  {0x0}
+mov     qword [rsp+0x30 {var_688_2}], rax
+mov     qword [rsp+0x28 {var_690_2}], r8
+mov     dword [rsp+0x20 {var_698}], edx
+lea     r9, [rsp+0xd0 {var_5e8}]
+lea     r8, [rsp+0x240 {var_478}]
+mov     edx, dword [rsi+0x68]
+lea     rcx, [rsp+0x60 {var_658}]
+mov     rax, rbx
+call    qword [rel __guard_dispatch_icall_fptr]
+mov     r13d, eax
+```
+
+| Index | Argument      | Source            | Variable          | Size          |
+|:------|:--------------|:------------------|:------------------|:--------------|
+| 1     | `rcx`         | `[rsp+0x60]`      | `var_658`         | `uint64_t`    |
+| 2     | `rdx`         | `[rsp+0x50]`      | `var_118`         | `uint64_t`    |
+| 3     | `r8`          | `[rsp+0x240]`     | `var_478`         | `uint64_t`    |
+| 4     | `r9`          | `[rsp+0xd0]`      | `var_5e8`         | `uint64_t`    |
+| 5     | `[rsp+0x20]`  | `edx`             | `?`               | `uint32_t`    |
+| 6     | `[rsp+0x28]`  | `r8`              | `var_5c8`         | `uint64_t`    |
+| 7     | `[rsp+0x30]`  | `rax`             | `var_5a8`         | `uint64_t`    |
+| 8     | `[rsp+0x38]`  | `r15`             | `{0x0}`           | `uint64_t`    |
+| 9     | `[rsp+0x40]`  | `r15`             | `{0x0}`           | `uint64_t`    |
+
+```cpp
+uint32_t RunPsScript(
+    uint64_t arg1,      // lea rcx, [rsp+0x60 {var_658}]
+    uint64_t arg2,      // lea rdx, [rsp+0x5a0 {var_118}]
+    uint64_t arg3,      // lea r8, [rsp+0x240 {var_478}]
+    uint64_t arg4,      // lea r9, [rsp+0xd0 {var_5e8}]
+
+    uint32_t arg5,      // mov dword [rsp+0x20 {var_698}], edx
+
+    uint64_t arg6,      // mov qword [rsp+0x28 {var_690_2}], r8
+    uint64_t arg7,      // mov qword [rsp+0x30 {var_688_2}], rax
+    uint64_t arg8,      // mov qword [rsp+0x38 {var_680_1}], r15  {0x0}
+    uint64_t arg9       // mov qword [rsp+0x40 {var_678_1}], r15  {0x0}
+)
+```
+
+```cpp
+uint32_t RunPsScript(NULL, NULL);
+```
