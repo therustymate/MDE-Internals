@@ -365,5 +365,15 @@ uint32_t RunPsScript(
 ```
 
 ```cpp
-uint32_t RunPsScript(NULL, NULL);
+uint32_t rax_74 = pRunPsScript(
+    &arg1,
+    this->__offset(0x68),
+    &this->__offset(0x70),
+    &this->__offset(0x90),
+    arg5,
+    arg6,
+    arg7,
+    NULL,
+    NULL
+)
 ```
