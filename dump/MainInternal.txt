@@ -1,0 +1,22 @@
+int32_t configuration_management::MainInternal(std::string arg1,
+    class std::unique_ptr<class configuration_management::IAadrtWrapper> arg2,
+    class std::unique_ptr<class configuration_management::IJoinStateFetcher> arg3,
+    class std::unique_ptr<class configuration_management::IAadrtTokenFetcher> arg4,
+    class std::unique_ptr<class configuration_management::ILeviathanTokenProvider> arg5,
+    class std::function< enum configuration_management::AAdAccessLimitationStatus __cdecl ()> arg6,
+    class std::function< std::string __cdecl ()> arg7,
+	class std::function< class std::shared_ptr<struct mde::utilities::Communication::HttpResponse> __cdecl (
+        class mde::utilities::Communication::IHttpClient&,
+	    std::string const&,
+	    std::string const&,
+	    std::string const&,
+	    class std::shared_ptr<class std::map<std::string, std::string> 
+    >,
+	class std::shared_ptr<class std::map<std::string, std::string> >)> arg8,
+	std::string arg9,
+	std::string const& arg10,
+	std::string const& arg11,
+	struct HKEY__* arg12,
+	std::string const& arg13,
+	bool arg14
+)

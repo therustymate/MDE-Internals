@@ -2,46 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://therustymate.com/MDE-Internals/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/1.0_Project%20MDIE/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/1.0_Project%20MDIE/1_1_MpDefenderCoreService/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/1.0_Project%20MDIE/1_2_MsMpEng/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/1.0_Project%20MDIE/1_3_MpDetours/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/1.0_Project%20MDIE/1_4_mprtp/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/1.0_Project%20MDIE/1_5_mpsvc/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/2.0_Preparation/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
-         <loc>https://therustymate.com/MDE-Internals/2.0_Preparation/2_1_FileDump/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <loc>https://therustymate.com/MDE-Internals/2.0_Preparation/2_1_General/</loc>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/2.0_Preparation/2_2_Dependencies/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
     </url>
     <url>
          <loc>https://therustymate.com/MDE-Internals/2.0_Preparation/2_3_IAT/</loc>
-         <lastmod>2026-09-22</lastmod>
+         <lastmod>2026-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://therustymate.com/MDE-Internals/3.0_Miscellaneous/</loc>
+         <lastmod>2026-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://therustymate.com/MDE-Internals/3.0_Miscellaneous/3_1_RunPsScript/</loc>
+         <lastmod>2026-09-23</lastmod>
     </url>
 </urlset>
